@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="stylesheets/estiloBusquedaHotel.css">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js" ></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js" ></script>
+  </head>
+
+  <body>
+    <div id="home" data-role="page" style="background-image: url(http://jqmdesigner.appspot.com/design-panel.html); background-size: 100% 80%; background-position: 10% 20%; background-repeat: no-repeat;">
+  <div data-role="header" data-position="fixed" style="background:#246; color:#fff ">
+    <h3>San Pedro Sula</h3>
+  </div>
+
+  <div role="main" class="ui-content">
+    <div class="ui-grid-solo" style="height:150px; width:320px; margin:-18px">
+      <div class="ui-block-a" style="height:100%">
+        <img src="http://www.teleprogreso.tv/micanal/wp-content/uploads/2013/07/129.jpg" style="margin-top:-20px; margin-left:2px; width:105%; height:180px;">
+    </div>
+  </div>
+
+    <div class="ui-grid-b" style="height:95px; margin-top:30px;" is="grid">
+      <div class="ui-block-a" style="height:100%" is="block">
+        <img is="dragable" src="http://oceassociation.org/images/f_hotel_icon.jpg" style="width:50px; margin:10px 0 0 23px;">
+        <h5 is="gk-text" style="text-align:center; margin-top:-5px;">Hoteles</h5>
+    </div>
+
+    <div class="ui-block-b" style="height:100%" is="block">
+        <img is="dragable" src="http://publitell.com/system/fotos/91/Edai-icono-restaurante.png" style="width:45px; margin:10px 0 7px 24px;">
+        <h5 is="gk-text" style="text-align:center; margin-top:-7px;">Restaurantes</h5>
+    </div>
+
+    <div class="ui-block-c" style="height:100%" is="block">
+        <img is="dragable" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSUUY881PMIt5Vx1ac1SNZnuE2ASlRtiXVBlmu5yJnDbll8OODt" style="width:40px; margin:15px 0 10px 27px;">
+        <h5 is="gk-text" style="text-align:center; margin-top:-10px;">Actividades</h5>
+      </div>
+    </div>
+    <h3>Ubicacion</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d30757.68226556884!2d-88.013384422876!3d15.500008224728855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2shn!4v1438282397525" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <h3>Calificar</h3>
+
+    <div is="raty" score="3" id="raty" class="raty"></div>
+
+    <div class="ui-field-contain">
+      <label for="gk-728xELL">Comentarios</label>
+      <textarea id="gk-728xELL" name></textarea>
+    </div>
+    <a class="ui-btn">Button</a>
+  </div>
+
+  <div data-role="footer" style="background:#246; color:#fff;text-shadow:none; size:12px font-size:05px" data-theme data-fullscreen data-position="fixed">
+    <h3>Copyright UNICAH SF 2015</h3>
+  </div>
+</div>
+      <script src="javascript/principal.js"></script>
+  </body>
+</html>
