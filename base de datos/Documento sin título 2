@@ -1,0 +1,169 @@
+
+
+use TouristPlacesHn
+
+---Login
+
+
+db.usuario.insert({usuario:"dlopez",nombre:"Leonardo Lopez",pass:"110620123",confirm_pass:"110620123",correo:"leonardo1986@hotmail.com"}) 
+db.usuario.insert({usuario:"lmurillo",nombre:"Lissy Murillo",pass:"AdrianaAndres",confirm_pass:"AdrianaAndres",correo:"libbey25@hotmail.com"}) 
+db.usuario.insert({usuario:"flopez",nombre:"Fausto Lopez",pass:"Impacto",confirm_pass:"Impacto",correo:"faustolopez@gamil.com"}) 
+db.usuario.insert({usuario:"nmurillo",nombre:"Nahel Murillo",pass:"LeonOlimpia",confirm_pass:"LeonOlimpia",correo:"nahelmurillo@gamil.com"}) 
+
+
+
+
+---Amapala
+
+db.destino.insert({"Destino":"Amapala","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"Hotel Mirador Amapala","Restaurante":"Restaurante Terra Mar"}})
+db.destino.insert({"Destino":"Amapala","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"Hotel Playa Negra","Restaurante":"Restaurante Veleros Gualoritas"}})
+db.destino.insert({"Destino":"Amapala","Servicios":{"Hoteles":true},"Nombres_Servicios":{"Hoteles":"Casa de las Gargolas"}})
+db.destino.insert({"Destino":"Amapala","Servicios":{"Hoteles":true},"Nombres_Servicios":{"Hoteles":"Hotel Terra Mar"}})
+
+---Copan Ruinas
+
+db.destino.insert({"Destino":"Copan Ruinas","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"Hotel Plaza Copan","Restaurante":"British Colonial House"}})
+db.destino.insert({"Destino":"Copan Ruinas","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"Carrillos Hotel","Restaurante":"Pupuseria Mary"}})
+db.destino.insert({"Destino":"Copan Ruinas","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"Casa Castejon , Finca El Cisne","Restaurante":"Restaurante Balam Cafe"}})
+db.destino.insert({"Destino":"Copan Ruinas","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"Lauro´s Hotel","Restaurante":"Restaurante Hacienda el Jaral"}}).
+db.destino.insert({"Destino":"Copan Ruinas","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"Hotel Clarion Copan Ruinas","Restaurante":"Restaurante los Asados"}})
+
+---Lago de Yojoa
+
+db.destino.insert({"Destino":"Lago de Yojoa","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"BioParque Paradaise","Restaurante":"Chalet del Lago"}})
+db.destino.insert({"Destino":"Lago de Yojoa","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"El Cartijo del Lago","Restaurante":"La Naruraleza y Centro Turistico"}})
+db.destino.insert({"Destino":"Lago de Yojoa","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"Hotel el Encanto","Restaurante":"Panacam Lodge"}})
+db.destino.insert({"Destino":"Lago de Yojoa","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"Hotel Posada del Rey","Restaurante":"Restaurante Pacas"}})
+db.destino.insert({"Destino":"Lago de Yojoa","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"Hotel y Finca las Glorias","Restaurante":"Restaurante Rancho Buena Vista"}})
+
+
+---La Ceiba
+
+db.destino.insert({"Destino":"La Ceiba","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"Gran Hotel Paris","Restaurante":"Bar las Hamacas"}})
+db.destino.insert({"Destino":"La Ceiba","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"Hotel Villas del Mar","Restaurante":"Cafeto"}})
+db.destino.insert({"Destino":"La Ceiba","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"Hotel Pico Bonito","Restaurante":"Club la Vela"}})
+db.destino.insert({"Destino":"La Ceiba","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"Hotel la Aurora","Restaurante":"El Mirador"}})
+db.destino.insert({"Destino":"La Ceiba","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"Hotel Partenon Beach","Restaurante":"El Patio"}})
+
+
+---Roatan
+
+db.destino.insert({"Destino":"Roatan","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"Anthony's key Resort","Restaurante":"Buffalo Steak House"}})
+db.destino.insert({"Destino":"Roatan","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"Barefoot cay Resort ","Restaurante":"Cafe Escondido"}})
+db.destino.insert({"Destino":"Roatan","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"Cay View Hotel ","Restaurante":"Cayuco Beach Bar"}})
+db.destino.insert({"Destino":"Roatan","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"CocoLobo","Restaurante":"Tong's Thai Island"}})
+db.destino.insert({"Destino":"Roatan","Servicios":{"Hoteles":true},"Nombres_Servicios":{"Hoteles":"Hotel la Quinta Roatan"}})
+
+--- Omoa
+
+db.destino.insert({"Destino":"Omoa","Servicios":{"Hoteles":true},"Nombres_Servicios":{"Hoteles":"Cabañas Pueblo Nuevo"}})
+db.destino.insert({"Destino":"Omoa","Servicios":{"Hoteles":true},"Nombres_Servicios":{"Hoteles":"Hotel Cabañas River Park"}})
+db.destino.insert({"Destino":"Omoa","Servicios":{"Hoteles":true},"Nombres_Servicios":{"Hoteles":"Villas Suites Viña de Mar"}})
+db.destino.insert({"Destino":"Omoa","Servicios":{"Hoteles":true},"Nombres_Servicios":{"Hoteles":"Chachahuala Beach"}})
+db.destino.insert({"Destino":"Omoa","Servicios":{"Hoteles":true},"Nombres_Servicios":{"Hoteles":"Paraiso Rain Forest & Beach Hotel"}})
+
+
+---Tegucigalpa
+
+db.destino.insert({"Destino":"Tegucigalpa","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"Apart Hotel Guijarros","Restaurante":"Baleadas Kennedy"}})
+db.destino.insert({"Destino":"Tegucigalpa","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"Clarion Hotel Real Tegucigalpa","Restaurante":"Cafe Mania coffee shop"}})
+db.destino.insert({"Destino":"Tegucigalpa","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"Holiday Inn Express","Restaurante":"Restaurante Asados el Gordo"}})
+db.destino.insert({"Destino":"Tegucigalpa","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"Hotel Alameda","Restaurante":"Resturante El Patio"}})
+db.destino.insert({"Destino":"Tegucigalpa","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"Hotel Honduras Maya","Restaurante":"Restaurante Tony's Mar"}})
+
+
+---San Pedro Sula
+
+db.destino.insert({"Destino":"San Pedro Sula","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"Apart Hotel Villanuria","Restaurante":"Arte Marino"}})
+db.destino.insert({"Destino":"San Pedro Sula","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"Apart Hotel Villas Larissa","Restaurante":"Baleadas Express"}})
+db.destino.insert({"Destino":"San Pedro Sula","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"Casa Aimenta Hostel","Restaurante":"La Estancia"}})
+db.destino.insert({"Destino":"San Pedro Sula","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"Hotel Boutique la casa de los Arcos","Restaurante":"Pollo Campero"}})
+db.destino.insert({"Destino":"San Pedro Sula","Servicios":{"Hoteles":true,"Restaurantes":true},"Nombres_Servicios":{"Hoteles":"Hotel Boutique Primavera","Restaurante":"Wings and Buckets"}})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
