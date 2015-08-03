@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="stylesheets/estiloBusquedaHotel.css">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js" ></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js" ></script>
+  	<title>web_movil</title>
+  </head>
+
+  <body>
+
+  <div data-role="page" data-theme="a" id="pagina1">
+    <div data-role="header" style="background:#246; color:#fff ">
+      <h1>Tourist Places</h1>
+    </div>
+
+     <div data-role="main" class="ui-content">
+      <p style="text-align : center;">Estas en Hoduras y no sabes a donde ir?</p>
+
+      <div style="float:left; margin:5px">
+        <a href="CopanRuinas.html" target="blank" title="Copan Ruinas"><img is="dragable" src="recursos/CopanRuinas.jpg" style="width: 200px; height: 150px; border-radius: 6px 6px 6px 6px;"></a>
+        <a href="SanPedro.html" target="blank" title="San Pedro Sula"><img is="dragable" src="recursos/SanPedro.jpg" style="width: 200px; height: 150px; border-radius: 6px 6px 6px 6px;"></a>
+        <!-- <img is="dragable" src="recursos/Amapala.jpg" style="width: 200px; height: 150px; border-radius: 6px 6px 6px 6px;"> -->
+
+        <div style="width:200px; 100px; float:left; padding-right: 5px;">
+          <a href="LaCeiba.html" target="blank" title="La Ceiba"><img is="dragable" src="recursos/LaCeiba.jpg" style="width: 200px; height: 80px; border-radius: 6px 6px 6px 6px;"></a>
+          <a href="Tegucigalpa.html" target="blank" title="Tegucigalpa"><img is="dragable" src="recursos/Tegucigalpa.jpg" style="width: 100px; height:65px; border-radius: 6px 6px 6px 6px;"></a>
+          <a href="Amapala.html" target="blank" title="Amapala"><img is="dragable" src="recursos/Amapala.jpg" style="width: 95px; height:65px; border-radius: 6px 6px 6px 6px;"></a>
+        </div>
+
+        <a href="Amapala.html" target="blank" title="Amapala"><img is="dragable" src="recursos/Amapala.jpg" style="width: 200px; height: 150px; border-radius: 6px 6px 6px 6px;"></a>
+        <a href="Roatan.html" target="blank" title="Roatan"><img is="dragable" src="recursos/Roatan.jpg" style="width: 200px; height: 150px; border-radius: 6px 6px 6px 6px;"></a>
+
+      </div><br>
+
+    </div>
+
+    <div style="text-align: center">
+        <a href="#pagina2" data-role="button" data-transition="flip">Cerrar Sesion</a>
+    </div>
+
+    <div data-role="footer" style="background:#246; color:#fff;text-shadow:none; size:12px font-size:05px" data-theme data-fullscreen data-position="fixed">
+      <h3>Copyright UNICAH SF 2015</h3>
+    </div>
+  </div>
+
+  <!------------PAGINA 2---------------------------->
+
+  <div data-role="page" data-theme="a" id="pagina2">
+
+  	<div data-role="header">
+  		<h1>Tourist Places</h1>
+  	</div>
+
+  		<a href="#pagina1" data-role="button" data-theme="b" data-rel="back">regresar</a>
+
+  	</div>
+
+  <div data-role="footer" style="background:#246; color:#fff;text-shadow:none; size:12px font-size:05px" data-theme data-fullscreen data-position="fixed">
+    <h3>Copyright UNICAH SF 2015</h3>
+  </div>
+</div>
+      <script src="javascript/principal.js"></script>
+  </body>
+</html>
